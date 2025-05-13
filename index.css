@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+
+.img_container{
+    position: relative;
+    width:100%;
+    padding:0;
+}
+
+.tree_img{
+    position: absolute;
+    width:30%;
+    height:750px;
+    padding:0;
+
+}
+
+.odin_img{
+    border: solid green 4px;
+    position:absolute;
+    height:250px;
+    top:25%;
+    bottom:25%;
+    width:auto;
+}
