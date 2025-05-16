@@ -62,12 +62,12 @@ top:0.5rem;
 }
 
 .container-top p{
-    padding: 120px 100px 100px 50px;
+    padding: 85px 100px 200px 50px;
     width:50%;
     font-weight: bold;
     font-size: 1.10rem;
     font-family: sans-serif;
-
+    
     
 }
 
@@ -84,24 +84,26 @@ top:0.5rem;
 
 .form-container p{
     position:absolute;
-    left:50px;
-  
+    left:0px;
+    bottom:160px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
 }
 
 .form-container form{
     display:flex;
     justify-content:space-evenly;
-    padding-left:30px;
-    
     gap:50px;
+    position:absolute;
+    left:50px;
 }
 
 #right-items, #left-items{
     display:flex;
     flex-direction: column;
     padding:30px 0 30px 0;
-
-    
+    gap:5px;
+    font-size:.75em;
 }
 
 
